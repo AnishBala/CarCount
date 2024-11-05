@@ -1,4 +1,4 @@
-import pandas as pd
+fdimport pandas as pd
 import cv2
 from ultralytics import YOLO
 import numpy as np
@@ -111,15 +111,15 @@ while cap.isOpened():
 # Release the video capture object and close the display window
 cap.release()
 cv2.destroyAllWindows()
-print(len(car_ids))
-print("Lane 1 count " + lane1)
-print("Lane 2 count " + lane2)
-print("Lane 3 coun t" + lane3)
-print("Lane 4 count " + lane4)
-print("Lane 5 count " + lane5)
-print("Lane 6 count " + lane6)
-print("Lane 7 count " + lane7)
-print("Lane 8 count " + lane8)
-print("Lane 9 count " + lane9)
-print("Lane 10 count " + lane10)
-print("Lane 11 count " + lane11)
+print("Lane count top to bottom")
+print(lane1)
+print(lane2)
+print(lane3)
+print(lane4)
+print(lane5)
+print(lane6)
+print(lane7)
+print(lane8)
+print(lane9)
+print(lane10)
+print(lane11)
